@@ -1,0 +1,11 @@
+*{
+	margin: 0;
+	text-decoration: none;
+	padding: 0;/* 清除ul的默认格式 */
+	list-style: none;
+}
+/* img默认有border大小，需要清除 */
+img{
+	border: 0;
+	display: block;
+}
