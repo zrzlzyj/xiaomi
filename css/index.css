@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'iconfont';  /* project id 532541 */
-  src: url('https://at.alicdn.com/t/font_532541_5ple9ov0xvv4pldi.eot');
-  src: url('https://at.alicdn.com/t/font_532541_5ple9ov0xvv4pldi.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_532541_5ple9ov0xvv4pldi.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_532541_5ple9ov0xvv4pldi.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_532541_5ple9ov0xvv4pldi.svg#iconfont') format('svg');
-}
+
 .head-buy span:nth-child(1){
 	font-family: 'iconfont';
 	line-height: 40px;
@@ -230,7 +223,7 @@
 	color: #424242;
 	font-size: 16px;
 }
-.jiadian-nav li:hover,.c01-top-right:hover,.shang-item1:hover,.xia-item1-02:hover,.dibu-shang-middle a:hover,.mx-02:hover,.daohanglan-middle-wenzi:hover{
+.jiadian-nav li:hover,.shang-item1:hover,.xia-item1-02:hover,.dibu-shang-middle a:hover,.mx-02:hover,.daohanglan-middle-wenzi:hover{
 	color: #ff6700;
 	border-bottom-color: #ff6700;
 	cursor: pointer;
@@ -611,16 +604,22 @@
 }
 .c01-top p{
 	float: left;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 58px;
 	font-weight: normal;
-	color: #333;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 	
 }
-.c01-top p{
-	font-size: 16px;
+.c01-top .sp-you{
 	color: #424242;
+	cursor: pointer;
+}
+.c01-top .sp-you:hover,.c01-top .sp-you:hover .iconfont{
+	color: #ff6700;
+}
+.c01-top .sp-you .iconfont{
+	font-size: 18px;
+	color: #b0b0b0;
 	float: left;
 	font-family: 'iconfont';
 
@@ -628,9 +627,7 @@
 .c01-top-right{
 	margin-right: 8px;	
 }
-.sp-you p:nth-child(2){
-	color: #b0b0b0;
-}
+
 .sp-you{
 	float: right;
 }
@@ -1053,4 +1050,17 @@
 }
 .content-bottom-item1:hover .neirong-btn-left{
 	background-color: rgba(66,66,66,0.2)!important;
+}
+
+
+
+.content .content-bottom .swiper-container .swiper-pagination-neirong .swiper-pagination-bullet{
+	width: 6px!important;
+    height: 6px;
+    border: 2px solid #f5f5f5!important;
+    border-radius: 6px;
+}
+
+.content .content-bottom .swiper-container .swiper-pagination-neirong .swiper-pagination-bullet-active{
+	border: 2px solid #ff6700!important;
 }
