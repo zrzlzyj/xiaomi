@@ -1,4 +1,11 @@
-
+@font-face {
+  font-family: 'iconfont';  /* project id 532541 */
+  src: url('https://at.alicdn.com/t/font_532541_6xkdsh39ejm26gvi.eot');
+  src: url('https://at.alicdn.com/t/font_532541_6xkdsh39ejm26gvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_532541_6xkdsh39ejm26gvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_532541_6xkdsh39ejm26gvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_532541_6xkdsh39ejm26gvi.svg#iconfont') format('svg');
+}
 .head-buy span:nth-child(1){
 	font-family: 'iconfont';
 	line-height: 40px;
@@ -757,7 +764,7 @@
 .dibu-shang{
 	height: 57px;
 	width: 1226px;
-	padding: 0 146.6px;
+	margin: 0 auto;
 }
 .img1{
 	float: left;
